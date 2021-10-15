@@ -1,0 +1,75 @@
+<!DOCTYPE hmtl>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="icon" type="img/jpg" href="./_imagens/ball.png">
+    <link rel=stylesheet type="text/css" href="./_css/styles.css">
+</head>
+<style>
+    body {
+        background-image: url('./_imagens/messi-cr7.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+    }
+</style>
+<script charset="ISO-8859-1" src="./_javascript/script.js"></script>
+
+<body>
+    <form name="frm" action="#" method="get" onsubmit="verify_form()">
+    <div class="container">
+        <div class="box">
+            <h1>Formulário de inscrição</h1>
+            <label>Nome</label><br>
+            <input id="name" type="text" maxlength="80"><br><br>
+            <label>Apelido</label><br>
+            <input id="nickname" type="text" maxlength="20"><br><br>
+            <label>E-mail</label><br>
+            <input id="email" type="email" maxlength="40"><br><br>
+            <label>Data de Nascimento</label><br>
+            Dia<input id="day" type="text" maxlength="2" size="2">
+            Mês<input id="month" type="text" maxlength="2" size="2">
+            Ano<input id="year" type="text" maxlength="4" size="4"><br><br>
+            <label>CPF</label><br>
+            <input id="cpf" type="text" maxlength="11"><br><br>
+            <label>Time do Coração</label><br>
+                <select id="team_id">
+                    <option id="team_1" value="Atlético-MG">Atlético-MG</option>
+                    <option id="team_2" value="Botafogo">Botafogo</option>
+                    <option id="team_3" value="Corinthians">Corinthians</option>
+                    <option id="team_4" value="Cruzeiro">Cruzeiro</option>
+                    <option id="team_5" value="Flamengo">Flamengo</option>
+                    <option id="team_6" value="Fluminense">Fluminense</option>
+                    <option id="team_7" value="Grêmio">Grêmio</option>
+                    <option id="team_8" value="Internacional">Internacional</option>
+                    <option id="team_9" value="Palmeiras">Palmeiras</option>
+                    <option id="team_10" value="Santos">Santos</option>
+                    <option id="team_11" value="São Paulo">São Paulo</option>
+                    <option id="team_12" value="Vasco da Gama">Vasco da Gama</option>
+                    <option id="team_13" value="Seleção Brasileira">Seleção Brasileira</option>
+                    <option id="team_14" value="Outro">Outro</option>
+                </select><br><br>
+            <label>Esportes de interesse</label><br>
+                <input type="checkbox" name="sport" id="sport_1">Artes Marciais
+                <input type="checkbox" name="sport" id="sport_2">Automobilismo
+                <input type="checkbox" name="sport" id="sport_3">Basquete<br>
+                <input type="checkbox" name="sport" id="sport_4">Esportes Americanos
+                <input type="checkbox" name="sport" id="sport_5">Esportes Aquáticos<br>
+                <input type="checkbox" name="sport" id="sport_6">Futebol
+                <input type="checkbox" name="sport" id="sport_7">Futsal
+                <input type="checkbox" name="sport" id="sport_8">Handebol
+                <input type="checkbox" name="sport" id="sport_9">Tênis
+                <input type="checkbox" name="sport" id="sport_10">Volêi<br><br>
+
+                <input type="submit" value="Submit">
+	            <input type="reset" value="Limpar">
+        </div>
+    </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+.button1 {
+    margin: 5px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: red;
+}
+
+.button1:hover{
+    cursor: pointer;
+    background-color: black;
+    color: limegreen;
+}
+
+.button2 {
+    margin: 5px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    border: orange;
+}
+
+.button2:hover{
+    cursor: pointer;
+    background-color: black;
+    color: limegreen;
+}
+
+.button3 {
+    margin: 5px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+    border: yellow;
+}
+
+.button3:hover{
+    cursor: pointer;
+    background-color: black;
+    color: limegreen;
+}
+
+.button4 {
+    margin: 5px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: green;
+}
+
+.button4:hover{
+    cursor: pointer;
+    background-color: black;
+    color: limegreen;
+}
+
+.button5 {
+    margin: 5px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: blue;
+}
+
+.button5:hover{
+    cursor: pointer;
+    background-color: black;
+    color: limegreen;
+}
+
+.button6 {
+    margin: 5px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: indigo;
+    color: white;
+    border: indigo;
+}
+
+.button6:hover{
+    cursor: pointer;
+    background-color: black;
+    color: limegreen;
+}
+
+.button7 {
+    margin: 5px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: violet;
+    color: white;
+    border: violet;
+}
+
+.button7:hover{
+    cursor: pointer;
+    background-color: black;
+    color: limegreen;
+}
+
+.button8 {
+    margin: 5px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: red;
+}
+
+.button8:hover{
+    cursor: pointer;
+    background-color: black;
+    color: limegreen;
+}

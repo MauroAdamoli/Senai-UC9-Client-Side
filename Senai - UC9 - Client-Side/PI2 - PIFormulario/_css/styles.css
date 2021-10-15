@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  
+#acordeon{font-size: 14px; width:200px;}
+
+* {
+  box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.box {
+  width: 600px;
+  height: 650px;
+  background: rgba(48,77,136,255);
+  color: white;
+  }
+
+body {
+  margin: 0px;
+  }

@@ -1,0 +1,30 @@
+body {
+    background-color: palegreen;
+}
+
+.tela {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: darkgreen;
+    color: limegreen;
+    font-size: 30px;
+}
+
+.btn {
+    color: darkgreen;
+    background-color: palegreen;
+    font-style: inherit;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button:hover {
+    background-color: black;
+    color: limegreen;
+    cursor: pointer;
+}
